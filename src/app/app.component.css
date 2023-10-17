@@ -1,0 +1,52 @@
+.body {
+   width: 199vh;
+   height: 90vh;
+}
+
+.weather-console {
+    width: 50vh;
+    height: 80vh;
+}
+
+.upper-console {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-radius: inherit;
+}
+
+.lower-console {
+    width: 100%;
+    height: 50%;
+    background-color: azure;
+    border-radius: inherit;
+}
+
+.lower-console-within {
+    width: 95%;
+    height: 95%;
+    border-radius: inherit;
+}
+
+.upper-console img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.lower-console-within img {
+    width: 50%;
+    height: 50%;
+}
+
+.console-data {
+    position: relative;
+    z-index: 1;
+}
+
+.top-lower-console, .bottom-lower-console {
+    width: 100%;
+    height: 50%;
+}
